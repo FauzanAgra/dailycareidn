@@ -1,0 +1,21 @@
+.pembayaran{
+    font-family: 'Poppins', cursive;
+    padding-top: 20px;
+}
+.pembayaran form{
+    margin-bottom: 20px;
+}
+.pembayaran h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.pembayaran input{
+    height: 35px;
+}
+
+.pembayaran button{
+    border-radius: 20px;
+    padding: 5px 50px;
+}

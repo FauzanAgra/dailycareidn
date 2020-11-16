@@ -1,0 +1,15 @@
+.caraorder{
+    font-family: 'Poppins', cursive;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.caraorder h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.caraorder p{
+    padding: 0 ;
+}

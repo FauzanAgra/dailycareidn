@@ -1,0 +1,23 @@
+.aboutus{
+    font-family: 'Poppins', cursive;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.aboutus h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.aboutus h5{
+    font-weight: 600;
+}
+
+.aboutus p{
+    text-align: justify;
+}
+
+.aboutus img{
+    width: 500px;
+}

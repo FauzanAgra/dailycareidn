@@ -1,0 +1,19 @@
+.contactus{
+    font-family: 'Poppins', cursive;
+    padding-top: 20px;
+}
+
+.contactus h4{
+    font-weight: 700;
+    text-align: center;
+}
+
+.contactus input, select{
+    height: 40px;
+}
+
+@media (min-width:992px){
+    .contactus .kanan{
+        text-align: right;
+    }
+}

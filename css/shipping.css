@@ -1,0 +1,11 @@
+.shipping{
+    font-family: 'Poppins', cursive;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.shipping h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}

@@ -1,0 +1,187 @@
+/* Utility */
+.garis-bawah::after{
+    content: '';
+    width: 70px;
+    margin: auto;
+    display: block;
+    border-bottom: 5px solid #005cb3;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+.tebal{
+    font-family: 'Poppins', cursive;
+    font-weight: 900;
+    font-size: 18px;
+}
+/* Navbar */
+.navbar{
+    background-color: #00396e;
+}
+
+.navbar-brand {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.nav-link, .navbar-brand{
+    color: white !important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* jumbotron */
+.jumbotron {
+    height: 330px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #00396e,#005cb3);
+}
+
+.jumbotron h1{
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron h2{
+    color: white;
+    font-weight: 400;
+}
+
+.jumbotron .btn{
+    border-radius: 20px;
+}
+
+/* Info Panel */
+.info-panel-img {
+   font-size: 50px;
+   margin: 10px 25px 20px 0;
+}
+.info-panel{
+    padding: 30px;
+    background-color: white;
+    margin-top: -90px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.info-panel h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* product */
+.product{
+    margin-top: 50px;
+}
+.product h2, .testimonial h2{
+    font-family: 'Poppins', cursive;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.card{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.product .card-title h6{
+    text-align: center;
+    padding: 0;
+    font-family: 'Poppins',cursive;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* testimonial */
+.testimonial h2{
+    margin-bottom: 100px;
+}
+.testimonial img{
+    width: 190px;
+    margin-top: -70px;
+}
+.testimonial .card{
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-bottom: 50px;
+}
+
+/* Footer */
+
+.footer{
+    font-family: 'Poppins';
+    color: white;
+    background: linear-gradient(to bottom, #005cb3,#00396e);
+}
+
+.footer h4{
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.footer p{
+    text-align: justify;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer .icon-payment{
+    margin: auto;
+}
+.footer .icon-payment img{
+    margin-left: 20px;
+}
+
+@media (min-width: 992px) { 
+    /* Navbar */
+    .nav-item{
+        text-transform: uppercase;
+        margin-right: 8px;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        width: 50%;
+        margin: auto;
+        display: block;
+        border-bottom: 3px solid #6f9fcc;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    /* jumbotron */
+    .jumbotron{
+        height: 400px;
+    }
+    .jumbotron .btn{
+        margin-top: 20px;
+    }
+
+    .product .card-title h6{
+        text-align: center;
+        padding: 0;
+        font-family: 'Poppins',cursive;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 576px) { 
+
+    .testimonial .mb-s{
+        margin-bottom: 80px;
+    }
+
+}
